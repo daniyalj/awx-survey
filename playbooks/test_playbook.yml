@@ -1,0 +1,12 @@
+---
+- name: Test Playbook
+  hosts: localhost
+  gather_facts: no
+  tasks:
+    - name: Debug http_port
+      debug:
+        msg: "HTTP Port: {{ http_port }}"
+    - name: Debug max_clients
+      debug:
+        msg: "Max Clients: {{ max_clients }}"
+
