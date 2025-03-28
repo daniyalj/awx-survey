@@ -11,5 +11,5 @@
         msg: "Max Clients: {{ max_clients }}"
     - name: Debug localhost
       debug:
-        msg: "Max Clients: {{ server_list }}"
+        msg: "Server list: {{ server_list }}"
 
