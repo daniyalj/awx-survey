@@ -1,6 +1,6 @@
 ---
 - name: Test Playbook
-  hosts: localhost
+  hosts: "{{ server_list }}"
   gather_facts: no
   tasks:
     - name: Debug http_port
